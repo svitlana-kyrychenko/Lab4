@@ -38,7 +38,7 @@ class CassandraClient:
 
 if __name__ == '__main__':
     host = 'localhost'
-    port = 9042
+    port = 8080
     keyspace = 'hw4_kyrychenko'
 
     client = CassandraClient(host, port, keyspace)
