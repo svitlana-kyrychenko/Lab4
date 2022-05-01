@@ -1,0 +1,2 @@
+CREATE TABLE review_by_product(product_id text, customer_id text, review_id text, review_headline text, review_body text, review_date date, star_rating smallint, PRIMARY KEY(product_id, star_rating, review_id));
+CREATE TABLE review_by_customer(customer_id text, product_id text, review_id text, review_headline text, review_body text, review_date date, star_rating smallint, PRIMARY KEY(customer_id, review_id));
